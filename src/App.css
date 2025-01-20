@@ -1,0 +1,119 @@
+
+.App {
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+}
+
+.content{
+  width: fit-content;
+  height: fit-content;
+  margin: 100px auto;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 100px;
+  -webkit-box-shadow: 5px 5px 26px 0px rgba(255,255,255,1);
+-moz-box-shadow: 5px 5px 26px 0px rgba(255,255,255,1);
+box-shadow: 5px 5px 26px 0px rgba(255,255,255,1);
+color: #000;
+  font-size: 20px;
+}
+.button{
+  -webkit-box-shadow: 9px 9px 25px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 9px 9px 25px -3px rgba(0,0,0,0.75);
+  box-shadow: 9px 9px 25px -3px rgba(0,0,0,0.75);
+  background: #000;
+  color: white;
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: 1s;
+}
+.button:hover{
+  background: #4FFFB0;
+  cursor: pointer;
+}
+.button-calendarEvent{
+  background: #4FFFB0;
+  color: var(--secondary);
+  border:2px solid transparent;
+}
+.button-calendarEvent:hover{
+  background: transparent;
+  border: 2px solid #4FFFB0;
+  color: #4FFFB0;
+  cursor: pointer;
+  box-shadow: none;
+}
+.button-signout{
+  -webkit-box-shadow: 9px 9px 25px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 9px 9px 25px -3px rgba(0,0,0,0.75);
+  box-shadow: 9px 9px 25px -3px rgba(0,0,0,0.75);
+  background: #000;
+  color: white;
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  transition: 1s;
+}
+
+.button-signout:hover{
+  background: red;
+  cursor: pointer;
+}
+
+.input{
+  width: 100%;
+  line-height: 30px;
+  border: 2px solid var(--secondary);
+  border-radius: 30px;
+  font-size:18px;
+  padding: 8px;
+  text-align: center;
+}
+.input:focus{
+  border:2px solid #4FFFB0;
+  outline: none; 
+}
+
+.react-datetime-picker__wrapper{
+  color:#fff;
+  background-color: #000;
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  -webkit-box-shadow: 9px 9px 25px -3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 9px 9px 25px -3px rgba(0,0,0,0.75);
+  box-shadow: 9px 9px 25px -3px rgba(0,0,0,0.75);
+}
+.react-datetime-picker__clear-button{
+  color: #fff;
+}
+
+.react-datetime-picker__inputGroup__input{
+  color: #fff;
+}
+
+.react-datetime-picker__calendar-button__icon {
+  stroke: #fff;
+}
+.react-datetime-picker__clear-button__icon{
+  stroke: #fff;
+}
+
